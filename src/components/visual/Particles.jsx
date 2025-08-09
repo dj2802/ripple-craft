@@ -1,10 +1,9 @@
 import { memo, useCallback } from "react";
 import ParticlesLib from "react-tsparticles";
-import type { Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
 
 export const Particles = memo(function Particles() {
-  const init = useCallback(async (engine: Engine) => {
+  const init = useCallback(async (engine) => {
     await loadFull(engine);
   }, []);
 

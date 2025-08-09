@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { SEO } from "@/components/seo/SEO";
 
-const Particles = lazy(() => import("@/components/visual/Particles").then(m => ({ default: m.Particles })));
+
 const ThreeIcon = lazy(() => import("@/components/visual/ThreeIcon").then(m => ({ default: m.ThreeIcon })));
 
 export const Hero = memo(function Hero() {
@@ -30,9 +30,6 @@ export const Hero = memo(function Hero() {
       />
       <section id="home" className="relative overflow-hidden">
         <div className="absolute inset-0 bg-surface-gradient -z-10" aria-hidden />
-        <Suspense fallback={null}>
-          <Particles />
-        </Suspense>
         <div className="container mx-auto px-4 pt-24 pb-20 md:pt-32 md:pb-24">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>

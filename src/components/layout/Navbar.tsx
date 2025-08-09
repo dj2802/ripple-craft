@@ -14,7 +14,7 @@ export const Navbar = memo(function Navbar() {
           <li><a href="#about" className="hover:text-primary transition-colors">About</a></li>
           <li><a href="#projects" className="hover:text-primary transition-colors">Projects</a></li>
           <li><a href="#skills" className="hover:text-primary transition-colors">Skills</a></li>
-          <li><a href="#articles" className="hover:text-primary transition-colors">Articles</a></li>
+          <li><a href="#education" className="hover:text-primary transition-colors">Education</a></li>
           <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
         </ul>
 

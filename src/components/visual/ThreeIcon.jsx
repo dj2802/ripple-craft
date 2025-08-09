@@ -4,7 +4,7 @@ import { memo, useMemo, useRef } from "react";
 import * as THREE from "three";
 
 function SpinningKnot() {
-  const mesh = useRef<THREE.Mesh>(null!);
+  const mesh = useRef(null);
 
   const brand = useMemo(() => {
     const root = document.documentElement;
@@ -13,6 +13,7 @@ function SpinningKnot() {
   }, []);
 
   useFrame((_, delta) => {
+    if (!mesh.current) return;
     mesh.current.rotation.x += delta * 0.4;
     mesh.current.rotation.y += delta * 0.6;
   });
