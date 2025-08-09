@@ -1,0 +1,23 @@
+Your Name — Resume
+
+Role: Frontend Developer / UI Engineer
+
+Summary
+- Frontend engineer crafting performant, accessible, and beautiful web apps.
+- Strong with React, TypeScript, Tailwind, and motion.
+
+Skills
+- React, TypeScript, Tailwind CSS, Framer Motion, React Query, Vite
+- Accessibility (WCAG), Testing, Performance Optimization
+
+Experience
+- Company — Frontend Developer (YYYY–YYYY)
+  Built X, improved Y%, led Z.
+
+Education
+- B.S. in Computer Science (YYYY)
+
+Links
+- GitHub: https://github.com/
+- LinkedIn: https://www.linkedin.com/
+- Portfolio: https://example.com
